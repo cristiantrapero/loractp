@@ -15,16 +15,20 @@ The repository is structured as follow:
 - `tests`: Tests the source code through TDD methodology.
 - `examples`: It contains some simple examples to run in Lopy4.
 - `docs`: Documentation related to the development of the project and system directives.
+- `lib`: Libraries for the Pysense board.
 
 ## Hardware
 
 All the code developed here have been tested in:
-- **Lopy 4**: https://docs.pycom.io/datasheets/development/lopy4/
+- **Lopy4**: https://docs.pycom.io/datasheets/development/lopy4/
 - **Pysense v1.0**: https://docs.pycom.io/datasheets/expansionboards/pysense/
 
 
 ## Firmware versions
-Lopy 4 firmware version: **Pybytes 1.20.2.r6** released at 28-11-2021
+Lopy4 firmware version: 
+- Pycom MicroPython: **1.20.2.r6 [v1.11-c5a0a97]** released at 2021-10-28.
+- Pybytes Version: **1.7.1**
 
-Pysense v1.0 firmware version: **0.0.8**
+Pysense v1.0 firmware version: 
+- DFU version: **0.0.8** available at https://docs.pycom.io/updatefirmware/expansionboard/
 
